@@ -21,7 +21,8 @@ Go client for Charles Schwab that mirrors the Python [schwab-api](https://github
 - **Go** 1.21+ (or match [go.mod](go.mod), e.g. 1.25)
 - **Playwright Chromium** (one-time install):
   ```bash
-  go run github.com/playwright-community/playwright-go/cmd/playwright@latest install chromium
+  go run github.com/playwright-community/playwright-go/cmd/
+  playwright@latest install chromium
   ```
   Or with npm: `npx playwright install chromium`
 
