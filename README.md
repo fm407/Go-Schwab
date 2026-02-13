@@ -167,7 +167,7 @@ See [go.mod](go.mod): [playwright-go](https://github.com/playwright-community/pl
 ## Python / auto-rsa parity
 
 - Same login idea as Python (browser + session). Go does **not** cache the session to disk; each run performs a fresh browser login.
-- Same API surface for account info and trading. See [SCHWAB_API_1TO1.md](SCHWAB_API_1TO1.md) for method and response mapping.
+- Same API surface for account info and trading.
 - Intended for use alongside or as a port of [NelsonDane/auto-rsa](https://github.com/NelsonDane/auto-rsa) and [MaxxRK/schwab-api](https://github.com/MaxxRK/schwab-api).
 
 ---
