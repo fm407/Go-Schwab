@@ -1,3 +1,6 @@
+# Local docs (optional)
+SCHWAB_API_1TO1.md
+
 # Environment and secrets
 .env
 .env.local
