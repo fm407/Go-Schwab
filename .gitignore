@@ -1,0 +1,47 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+vendor/
+
+# Build and bin
+/bin/
+/dist/
+/build/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug and logs
+.cursor/
+*.log
+debug.log
+
+# Playwright (browsers installed locally; optional, uncomment if you install under repo)
+# playwright/.local-browsers/
+# test-results/
+# playwright-report/
+# blob-report/
+
+# Coverage
+coverage.txt
+coverage.html
+*.coverprofile
