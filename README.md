@@ -12,7 +12,7 @@ Go client for Charles Schwab that mirrors the Python [schwab-api](https://github
 - **Session capture** - Bearer token, cookies, and request headers (e.g. `Schwab-ChannelCode`) from the trade page
 - **Account info** - Positions and balances via HoldingV2 (`GetAccountInfo`, `GetAccountInfoV2`)
 - **Trading** - Market order verify/execute via `Trade` / `TradeV2` (Buy/Sell, dry run)
-- **Python parity** - Same logical flow and response shapes as Python schwab-api where applicable; see [SCHWAB_API_1TO1.md](SCHWAB_API_1TO1.md) for mapping
+- **Python parity** - Same logical flow and response shapes as Python schwab-api where applicable.
 
 ---
 
