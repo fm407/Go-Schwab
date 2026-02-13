@@ -1,4 +1,4 @@
-module github.com/Auto-RSA-Safe/go-schwab
+module github.com/fm407/Go-Schwab
 
 go 1.25.7
 

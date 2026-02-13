@@ -2,7 +2,7 @@
 
 Go client for Charles Schwab that mirrors the Python [schwab-api](https://github.com/MaxxRK/schwab-api) / [NelsonDane/auto-rsa](https://github.com/NelsonDane/auto-rsa) flow: browser login via Playwright, then session + bearer token for API calls (account info, trading).
 
-**Module:** `github.com/Auto-RSA-Safe/go-schwab`
+**Module:** `github.com/fm407/Go-Schwab`
 
 ---
 
@@ -47,7 +47,7 @@ Set environment variables (e.g. in a `.env` file in or above `go-schwab`). **Do 
 | Variable | Description |
 |----------|-------------|
 | `SCHWAB` | `username:password:totpSecret`. Comma-separated for multiple accounts. Use `NA` for no TOTP. |
-| `SCHWAB_ACCOUNT_NUMBERS` | Optional. Account number(s), colon-separated (e.g. `30110372`). Used for `Schwab-Client-Ids` on HoldingV2. |
+| `SCHWAB_ACCOUNT_NUMBERS` | Optional. Account number(s), colon-separated (e.g. `30770432`). Used for `Schwab-Client-Ids` on HoldingV2. |
 
 The example loads `.env` from `../../.env`, `../.env`, or `.env` (see [cmd/example/main.go](cmd/example/main.go)).
 
@@ -71,7 +71,7 @@ Requires `SCHWAB` (and optionally `SCHWAB_ACCOUNT_NUMBERS`) in env or `.env`.
 package main
 
 import (
-    "github.com/Auto-RSA-Safe/go-schwab"
+    "github.com/fm407/Go-Schwab"
 )
 
 func main() {

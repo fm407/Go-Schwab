@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Auto-RSA-Safe/go-schwab"
+	"github.com/fm407/Go-Schwab"
 	"github.com/joho/godotenv"
 )
 
